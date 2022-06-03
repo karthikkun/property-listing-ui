@@ -8,7 +8,7 @@ function Header() {
           <span className='main-section-title'>Listing Application</span>
           <span className='main-section-subtitle'>Listings</span>
         </div>
-        <img className='main-image' src="https://images.pexels.com/photos/2931251/pexels-photo-2931251.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="" />
+        <img className='main-image' src="https://images.pexels.com/photos/9313685/pexels-photo-9313685.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="" />
     </div>
   )
 }
