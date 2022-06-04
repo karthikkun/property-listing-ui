@@ -68,5 +68,5 @@
     margin-right: 12px;
     cursor: pointer;
     font-size: 22px;
-    color: #00b386;
+    color: var(--primary-color);
 }
