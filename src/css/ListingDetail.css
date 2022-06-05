@@ -1,0 +1,63 @@
+.listing-detail {
+    flex: 9;
+}
+
+.listing-detail-img {
+    width: 70%;
+    height: 450px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.listing-detail-content {
+    padding: 20px 0px 20px 20px;
+}
+
+
+.listing-detail-title {
+    font-size: 38px;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    margin: 10px 0;
+}
+
+.listing-detail-action {
+    float: right;
+}
+
+.listing-detail-action-icon {
+    margin-left: 12px;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.listing-detail-action-icon:first-child {
+    color: var(--primary-color);
+}
+
+.listing-detail-action-icon:last-child {
+    color: var(--secondary-color);
+}
+
+.listing-detail-metainfo {
+    display: flex;
+    justify-content: space-between; /* gives equal space between the child items */
+    font-size: 18px;
+    color: rgba(0, 0, 0, 0.592);
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.listing-detail-description {
+    line-height: 26px;
+    font-size: 16px;
+    color: rgb(61, 60, 60);
+}
+
+.listing-detail-description::first-letter {
+    margin-left: 15px;
+    font-size: 26px;
+    font-weight: 700;
+    color: var(--primary-color);
+}
