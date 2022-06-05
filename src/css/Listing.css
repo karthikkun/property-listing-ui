@@ -1,3 +1,7 @@
 .listing-section {
     flex: 9; /* 9 out of 12 parts */
+    display: flex;
+    flex-wrap: wrap; /* try to equally place the children on same 
+    row based on total width and push the rest onto the next row */
+    margin: 20px;
 }

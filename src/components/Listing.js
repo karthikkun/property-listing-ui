@@ -5,9 +5,14 @@ import ListingItem from './ListingItem'
 function Listing() {
   return (
     <div className='listing-section'>
-      <span>All Properties</span>
       <ListingItem />
       <ListingItem />
+      <ListingItem />
+      <ListingItem />
+      <ListingItem />
+      <ListingItem />
+      <ListingItem />
+
     </div>
   )
 }

@@ -1,5 +1,5 @@
 .listing-item {
-    width: 380px;
+    width: 265px;
     margin: 0px 25px 40px 25px;
 }
 
@@ -39,4 +39,9 @@
 .listing-description {
     margin-top: 5px;
     color: rgb(78, 78, 78); 
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 4; /* show only 4 lines after that ... */
+    -webkit-box-orient: vertical;
 }
