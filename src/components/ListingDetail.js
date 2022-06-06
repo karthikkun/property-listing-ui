@@ -1,7 +1,7 @@
 import React from 'react'
 import '../css/ListingDetail.css'
 
-function ListingDetail() {
+function ListingDetail(props) {
   return (
     <div className='listing-detail'>
       <div className="listing-detail-content">

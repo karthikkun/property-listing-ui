@@ -1,5 +1,6 @@
 import React from 'react'
 import '../css/TopBar.css'
+import {Link, NavLink} from 'react-router-dom'
 
 function TopBar() {
     return (
@@ -12,9 +13,9 @@ function TopBar() {
             </div>
             <div className="topbar-center">
                 <ul className="topbar-list">
-                    <li className="topbar-list-item">HOME</li>
-                    <li className="topbar-list-item">CREATE LISTING</li>
-                    <li className="topbar-list-item">ABOUT</li>
+                    <li><NavLink to="/" className="topbar-list-item">HOME</NavLink></li>
+                    <li><NavLink to="/create" className="topbar-list-item">CREATE LISTING</NavLink></li>
+                    <li><Link to="/" className="topbar-list-item">ABOUT</Link></li>
                     <li className="topbar-list-item">CONTACT</li>
                     <li className="topbar-list-item">LOGOUT</li>
                 </ul>
